@@ -24,6 +24,10 @@ public class UserserviceApplication {
     // password 1234
 
 
+    // http://localhost:8080/api/users
+    // Authorization Bearer XXXXX
+
+
 
     @Bean
     PasswordEncoder passwordEncoder() {
