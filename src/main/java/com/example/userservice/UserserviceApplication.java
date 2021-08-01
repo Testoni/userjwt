@@ -28,6 +28,7 @@ public class UserserviceApplication {
     // Authorization Bearer XXXXX
 
     // http://localhost:8080/api/token/refresh
+    // uthorization Bearer [refresh-token]
 
     @Bean
     PasswordEncoder passwordEncoder() {
