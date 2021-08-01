@@ -25,3 +25,11 @@ To generate a new refresh token:
 http://localhost:8080/api/token/refresh
 </br>
 Authorization | Bearer [refresh_token]
+
+---------------
+
+to deploy with docker:
+
+docker-compose build
+
+docker-compose up
