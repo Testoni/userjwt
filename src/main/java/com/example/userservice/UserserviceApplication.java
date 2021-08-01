@@ -27,7 +27,7 @@ public class UserserviceApplication {
     // http://localhost:8080/api/users
     // Authorization Bearer XXXXX
 
-
+    // http://localhost:8080/api/token/refresh
 
     @Bean
     PasswordEncoder passwordEncoder() {
