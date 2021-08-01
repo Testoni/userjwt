@@ -19,6 +19,12 @@ public class UserserviceApplication {
         SpringApplication.run(UserserviceApplication.class, args);
     }
 
+    // http://localhost:8080/api/login
+    // username gabr
+    // password 1234
+
+
+
     @Bean
     PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
